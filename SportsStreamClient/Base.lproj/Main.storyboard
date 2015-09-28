@@ -121,10 +121,10 @@
                         <animations/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" misplaced="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GAMECELL" rowHeight="120" id="NyG-3o-13P" customClass="GameTableViewCell">
-                                <rect key="frame" x="0.0" y="54" width="1880" height="120"/>
+                                <rect key="frame" x="0.0" y="194" width="1920" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NyG-3o-13P" id="1wt-FW-olZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="1880" height="120"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="1904" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Home Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiF-Ck-HRN">

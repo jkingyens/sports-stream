@@ -171,7 +171,7 @@
 // log out of the remote server
 -(IBAction)doLogout:(id)sender {
 
-    AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication];
+    AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
 
     // ensure we are not already logged in
     if (! [delegate loggedIn]) {
