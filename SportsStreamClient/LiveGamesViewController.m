@@ -176,7 +176,6 @@
                 // draw this on the main thread
                 dispatch_async(dispatch_get_main_queue(), ^() {
 
-                    // NSString *videoURL = @"http://demand.hscontent.com/west5/vod5/hs/55faf9d6/12232014/34242HD.mp4?token=YUlyQzQ2SFEwcHhGRWVHZ3h5dWt6bG1tQ0pXN1JQSmF0dkFDeFVoNWxjd0JxRm1yN2E2ZzRoaUlMTHoxZ2pMQm5QbVNham84bWtXUFY4SFdTcHVjU0pRU1NibjJISGNNMlE0dVBzVXlRVTQ9";
                     NSURL *videoURL = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@?token=%@", streamURL, token]];
                     NSLog(@"video URL = %@", videoURL);
 
