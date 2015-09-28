@@ -31,3 +31,4 @@ When you run the client this time, be sure to enter the production server endpoi
 # Community & Devleopment
 
 We are on freenode IRC at #sports-stream
+We we have a [trello board with user stories](https://trello.com/b/HhgNUqIS/user-stories)
