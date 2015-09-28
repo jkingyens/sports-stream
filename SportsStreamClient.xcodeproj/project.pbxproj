@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C531FE181BB9CE2A00FCD9F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE171BB9CE2A00FCD9F9 /* main.m */; };
+		C531FE1B1BB9CE2A00FCD9F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE1A1BB9CE2A00FCD9F9 /* AppDelegate.m */; };
+		C531FE1E1BB9CE2A00FCD9F9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE1D1BB9CE2A00FCD9F9 /* LoginViewController.m */; };
+		C531FE211BB9CE2A00FCD9F9 /* LiveGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE201BB9CE2A00FCD9F9 /* LiveGamesViewController.m */; };
+		C531FE241BB9CE2A00FCD9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C531FE221BB9CE2A00FCD9F9 /* Main.storyboard */; };
+		C531FE261BB9CE2A00FCD9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C531FE251BB9CE2A00FCD9F9 /* Assets.xcassets */; };
+		C531FE2F1BB9CE6E00FCD9F9 /* GameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE2E1BB9CE6E00FCD9F9 /* GameTableViewCell.m */; };
+		C531FE361BB9D44E00FCD9F9 /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C531FE351BB9D44E00FCD9F9 /* AppConfig.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C531FE131BB9CE2A00FCD9F9 /* SportsStreamClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsStreamClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C531FE171BB9CE2A00FCD9F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C531FE191BB9CE2A00FCD9F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C531FE1A1BB9CE2A00FCD9F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C531FE1C1BB9CE2A00FCD9F9 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C531FE1D1BB9CE2A00FCD9F9 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C531FE1F1BB9CE2A00FCD9F9 /* LiveGamesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveGamesViewController.h; sourceTree = "<group>"; };
+		C531FE201BB9CE2A00FCD9F9 /* LiveGamesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveGamesViewController.m; sourceTree = "<group>"; };
+		C531FE231BB9CE2A00FCD9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C531FE251BB9CE2A00FCD9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C531FE271BB9CE2A00FCD9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C531FE2D1BB9CE6E00FCD9F9 /* GameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTableViewCell.h; sourceTree = "<group>"; };
+		C531FE2E1BB9CE6E00FCD9F9 /* GameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTableViewCell.m; sourceTree = "<group>"; };
+		C531FE351BB9D44E00FCD9F9 /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C531FE101BB9CE2A00FCD9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C531FE0A1BB9CE2A00FCD9F9 = {
+			isa = PBXGroup;
+			children = (
+				C531FE151BB9CE2A00FCD9F9 /* SportsStreamClient */,
+				C531FE141BB9CE2A00FCD9F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C531FE141BB9CE2A00FCD9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C531FE131BB9CE2A00FCD9F9 /* SportsStreamClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C531FE151BB9CE2A00FCD9F9 /* SportsStreamClient */ = {
+			isa = PBXGroup;
+			children = (
+				C531FE351BB9D44E00FCD9F9 /* AppConfig.plist */,
+				C531FE2D1BB9CE6E00FCD9F9 /* GameTableViewCell.h */,
+				C531FE2E1BB9CE6E00FCD9F9 /* GameTableViewCell.m */,
+				C531FE191BB9CE2A00FCD9F9 /* AppDelegate.h */,
+				C531FE1A1BB9CE2A00FCD9F9 /* AppDelegate.m */,
+				C531FE1C1BB9CE2A00FCD9F9 /* LoginViewController.h */,
+				C531FE1D1BB9CE2A00FCD9F9 /* LoginViewController.m */,
+				C531FE1F1BB9CE2A00FCD9F9 /* LiveGamesViewController.h */,
+				C531FE201BB9CE2A00FCD9F9 /* LiveGamesViewController.m */,
+				C531FE221BB9CE2A00FCD9F9 /* Main.storyboard */,
+				C531FE251BB9CE2A00FCD9F9 /* Assets.xcassets */,
+				C531FE271BB9CE2A00FCD9F9 /* Info.plist */,
+				C531FE161BB9CE2A00FCD9F9 /* Supporting Files */,
+			);
+			path = SportsStreamClient;
+			sourceTree = "<group>";
+		};
+		C531FE161BB9CE2A00FCD9F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C531FE171BB9CE2A00FCD9F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C531FE121BB9CE2A00FCD9F9 /* SportsStreamClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C531FE2A1BB9CE2A00FCD9F9 /* Build configuration list for PBXNativeTarget "SportsStreamClient" */;
+			buildPhases = (
+				C531FE0F1BB9CE2A00FCD9F9 /* Sources */,
+				C531FE101BB9CE2A00FCD9F9 /* Frameworks */,
+				C531FE111BB9CE2A00FCD9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsStreamClient;
+			productName = SportsStreamClient;
+			productReference = C531FE131BB9CE2A00FCD9F9 /* SportsStreamClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C531FE0B1BB9CE2A00FCD9F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SportsStream;
+				TargetAttributes = {
+					C531FE121BB9CE2A00FCD9F9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C531FE0E1BB9CE2A00FCD9F9 /* Build configuration list for PBXProject "SportsStreamClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C531FE0A1BB9CE2A00FCD9F9;
+			productRefGroup = C531FE141BB9CE2A00FCD9F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C531FE121BB9CE2A00FCD9F9 /* SportsStreamClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C531FE111BB9CE2A00FCD9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C531FE361BB9D44E00FCD9F9 /* AppConfig.plist in Resources */,
+				C531FE261BB9CE2A00FCD9F9 /* Assets.xcassets in Resources */,
+				C531FE241BB9CE2A00FCD9F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C531FE0F1BB9CE2A00FCD9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C531FE211BB9CE2A00FCD9F9 /* LiveGamesViewController.m in Sources */,
+				C531FE1B1BB9CE2A00FCD9F9 /* AppDelegate.m in Sources */,
+				C531FE1E1BB9CE2A00FCD9F9 /* LoginViewController.m in Sources */,
+				C531FE2F1BB9CE6E00FCD9F9 /* GameTableViewCell.m in Sources */,
+				C531FE181BB9CE2A00FCD9F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C531FE221BB9CE2A00FCD9F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C531FE231BB9CE2A00FCD9F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C531FE281BB9CE2A00FCD9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C531FE291BB9CE2A00FCD9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C531FE2B1BB9CE2A00FCD9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SportsStreamClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportsstream.sportsstreamclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C531FE2C1BB9CE2A00FCD9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SportsStreamClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportsstream.sportsstreamclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C531FE0E1BB9CE2A00FCD9F9 /* Build configuration list for PBXProject "SportsStreamClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C531FE281BB9CE2A00FCD9F9 /* Debug */,
+				C531FE291BB9CE2A00FCD9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C531FE2A1BB9CE2A00FCD9F9 /* Build configuration list for PBXNativeTarget "SportsStreamClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C531FE2B1BB9CE2A00FCD9F9 /* Debug */,
+				C531FE2C1BB9CE2A00FCD9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C531FE0B1BB9CE2A00FCD9F9 /* Project object */;
+}
