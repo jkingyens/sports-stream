@@ -27,3 +27,7 @@ When you run the client this time, be sure to enter the production server endpoi
 
 * limited to playing live streams only (no on demand)
 * testing with the simulator and not on real apple tv hardware
+
+# Community & Devleopment
+
+We are on freenode IRC at #sports-stream
