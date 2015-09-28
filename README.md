@@ -5,9 +5,9 @@ Redefine viewing live sports on tvOS and iOS
 
 If you want to develop on sports stream client locally, then you can spin up a mock server. to do this:
 
-* install node.js, then run:
+install node.js, then run:
 
-    cd SportsStreamClient
+    cd SportsStreamServer
     npm install
     npm start
 
@@ -27,3 +27,7 @@ When you run the client this time, be sure to enter the production server endpoi
 
 * limited to playing live streams only (no on demand)
 * testing with the simulator and not on real apple tv hardware
+
+# Community & Devleopment
+
+We are on freenode IRC at #sports-stream
