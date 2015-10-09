@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9052" systemVersion="15B17c" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9058" systemVersion="15B30a" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -17,17 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9mI-xf-9SO">
-                                <rect key="frame" x="566" y="674" width="788" height="66"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9mI-xf-9SO">
+                                <rect key="frame" x="566" y="629" width="788" height="66"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="788" id="B2e-Zc-K8E"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="validateFields:" destination="9pv-A4-QxB" eventType="editingChanged" id="s9Q-1X-78R"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mii-ep-b9O">
-                                <rect key="frame" x="882" y="882" width="174" height="86"/>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mii-ep-b9O">
+                                <rect key="frame" x="873" y="882" width="174" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Login"/>
@@ -35,9 +38,12 @@
                                     <action selector="doLogin:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="SsY-KW-Ezu"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Endpoint URL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ktb-a5-zQz">
-                                <rect key="frame" x="566" y="435" width="788" height="66"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Endpoint URL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ktb-a5-zQz">
+                                <rect key="frame" x="566" y="390" width="788" height="66"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="788" id="iyW-jk-wI1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" returnKeyType="done"/>
                                 <connections>
@@ -45,15 +51,15 @@
                                     <action selector="validateFields:" destination="9pv-A4-QxB" eventType="editingChanged" id="fuB-KC-ZLy"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sports Streamer Client" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqg-El-DfQ">
-                                <rect key="frame" x="342" y="205" width="1254" height="117"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sports Streamer Client" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqg-El-DfQ">
+                                <rect key="frame" x="666" y="200" width="588" height="72"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC1-nn-URw">
-                                <rect key="frame" x="861" y="497" width="200" height="86"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC1-nn-URw">
+                                <rect key="frame" x="860" y="497" width="200" height="86"/>
                                 <animations/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Logout"/>
@@ -61,41 +67,70 @@
                                     <action selector="doLogout:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="NUy-2T-2Qk"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hvD-IP-fTw">
-                                <rect key="frame" x="566" y="556" width="788" height="66"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hvD-IP-fTw">
+                                <rect key="frame" x="566" y="511" width="788" height="66"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="788" id="WkF-39-9k3"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                 <connections>
                                     <action selector="validateFields:" destination="9pv-A4-QxB" eventType="editingChanged" id="2NV-a9-TqM"/>
                                 </connections>
                             </textField>
-                            <visualEffectView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LIW-kq-dWQ">
-                                <rect key="frame" x="829" y="424" width="280" height="231"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="5DQ-1m-h4I">
+                            <visualEffectView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LIW-kq-dWQ">
+                                <rect key="frame" x="820" y="424" width="280" height="231"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5DQ-1m-h4I">
                                     <rect key="frame" x="0.0" y="0.0" width="280" height="231"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Logging in..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJg-hc-Tbr">
-                                            <rect key="frame" x="65" y="143" width="151" height="36"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connecting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJg-hc-Tbr">
+                                            <rect key="frame" x="69" y="145" width="143" height="34"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                             <color key="textColor" red="1" green="0.95384333488784745" blue="0.94298695640345109" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="G3j-WC-Hu4">
+                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="G3j-WC-Hu4">
                                             <rect key="frame" x="108" y="46" width="64" height="64"/>
                                             <animations/>
                                         </activityIndicatorView>
                                     </subviews>
                                     <animations/>
+                                    <constraints>
+                                        <constraint firstItem="G3j-WC-Hu4" firstAttribute="top" secondItem="5DQ-1m-h4I" secondAttribute="top" constant="46" id="Af5-6w-BiX"/>
+                                        <constraint firstItem="cJg-hc-Tbr" firstAttribute="centerX" secondItem="5DQ-1m-h4I" secondAttribute="centerX" id="Tkg-du-r3r"/>
+                                        <constraint firstItem="G3j-WC-Hu4" firstAttribute="centerX" secondItem="5DQ-1m-h4I" secondAttribute="centerX" id="ine-aF-UZ5"/>
+                                        <constraint firstAttribute="bottom" secondItem="cJg-hc-Tbr" secondAttribute="bottom" constant="52" id="jVE-0s-zRZ"/>
+                                    </constraints>
                                 </view>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="231" id="8di-vj-seZ"/>
+                                    <constraint firstAttribute="width" constant="280" id="Vss-RO-0IY"/>
+                                </constraints>
                                 <blurEffect style="dark"/>
                             </visualEffectView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nC1-nn-URw" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="3er-QD-GE7"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="Mii-ep-b9O" secondAttribute="bottom" constant="112" id="59z-Jp-lYA"/>
+                            <constraint firstItem="hvD-IP-fTw" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="6tp-P5-KYE"/>
+                            <constraint firstItem="9mI-xf-9SO" firstAttribute="top" secondItem="hvD-IP-fTw" secondAttribute="bottom" constant="52" id="DeY-7W-3ci"/>
+                            <constraint firstItem="LIW-kq-dWQ" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="Ein-IQ-PVC"/>
+                            <constraint firstItem="9mI-xf-9SO" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="RfG-rT-gDk"/>
+                            <constraint firstItem="LIW-kq-dWQ" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="UgA-9X-dHY"/>
+                            <constraint firstItem="hvD-IP-fTw" firstAttribute="top" secondItem="ktb-a5-zQz" secondAttribute="bottom" constant="55" id="Wgi-v0-T27"/>
+                            <constraint firstItem="xqg-El-DfQ" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="60" id="XQY-My-6lN"/>
+                            <constraint firstItem="xqg-El-DfQ" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="YNg-un-ZYD"/>
+                            <constraint firstItem="Mii-ep-b9O" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="ZO4-Mc-JzF"/>
+                            <constraint firstItem="ktb-a5-zQz" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="dQh-od-mab"/>
+                            <constraint firstItem="nC1-nn-URw" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="g1j-bE-FtE"/>
+                            <constraint firstItem="ktb-a5-zQz" firstAttribute="top" secondItem="xqg-El-DfQ" secondAttribute="bottom" constant="118" id="wr9-Jw-7dX"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Login" id="acW-dT-cKf"/>
                     <connections>
@@ -120,8 +155,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" misplaced="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GAMECELL" rowHeight="120" id="NyG-3o-13P" customClass="GameTableViewCell">
-                                <rect key="frame" x="0.0" y="194" width="1920" height="120"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GAMECELL" rowHeight="120" id="NyG-3o-13P" customClass="GameTableViewCell">
+                                <rect key="frame" x="0.0" y="54" width="1880" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NyG-3o-13P" id="1wt-FW-olZ">
                                     <rect key="frame" x="0.0" y="0.0" width="1904" height="120"/>
