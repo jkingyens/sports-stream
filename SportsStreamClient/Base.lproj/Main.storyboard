@@ -8,7 +8,7 @@
         <!--Login-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="LoginViewController" customModule="SportsStreamClient" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -149,13 +149,13 @@
         <!--Live Games-->
         <scene sceneID="mof-Vi-s4N">
             <objects>
-                <tableViewController id="Iot-q7-eJn" customClass="LiveGamesViewController" sceneMemberID="viewController">
+                <tableViewController id="Iot-q7-eJn" customClass="LiveGamesViewController" customModule="SportsStreamClient" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="40" sectionFooterHeight="40" id="o51-jR-Vvq">
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GAMECELL" rowHeight="120" id="NyG-3o-13P" customClass="GameTableViewCell">
+                            <tableViewCell contentMode="scaleToFill" misplaced="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GAMECELL" rowHeight="120" id="NyG-3o-13P" customClass="GameTableViewCell" customModule="SportsStreamClient" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="54" width="1880" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NyG-3o-13P" id="1wt-FW-olZ">
@@ -215,7 +215,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="ROOT" useStoryboardIdentifierAsRestorationIdentifier="YES" id="49e-Tb-3d3" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="120"/>

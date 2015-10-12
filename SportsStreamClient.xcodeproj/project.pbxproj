@@ -7,31 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C531FE181BB9CE2A00FCD9F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE171BB9CE2A00FCD9F9 /* main.m */; };
-		C531FE1B1BB9CE2A00FCD9F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE1A1BB9CE2A00FCD9F9 /* AppDelegate.m */; };
-		C531FE1E1BB9CE2A00FCD9F9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE1D1BB9CE2A00FCD9F9 /* LoginViewController.m */; };
-		C531FE211BB9CE2A00FCD9F9 /* LiveGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE201BB9CE2A00FCD9F9 /* LiveGamesViewController.m */; };
 		C531FE241BB9CE2A00FCD9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C531FE221BB9CE2A00FCD9F9 /* Main.storyboard */; };
 		C531FE261BB9CE2A00FCD9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C531FE251BB9CE2A00FCD9F9 /* Assets.xcassets */; };
-		C531FE2F1BB9CE6E00FCD9F9 /* GameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C531FE2E1BB9CE6E00FCD9F9 /* GameTableViewCell.m */; };
 		C531FE361BB9D44E00FCD9F9 /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C531FE351BB9D44E00FCD9F9 /* AppConfig.plist */; };
+		C59B8AF21BCAF03900E7B10C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B8AF11BCAF03900E7B10C /* LoginViewController.swift */; };
+		C59B8AF41BCB139B00E7B10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B8AF31BCB139B00E7B10C /* AppDelegate.swift */; };
+		C59B8AF71BCB14C600E7B10C /* LiveGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B8AF61BCB14C600E7B10C /* LiveGamesViewController.swift */; };
+		C59B8AF91BCB14DC00E7B10C /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B8AF81BCB14DC00E7B10C /* GameTableViewCell.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C59B8AEA1BC9E00F00E7B10C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C531FE131BB9CE2A00FCD9F9 /* SportsStreamClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsStreamClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C531FE171BB9CE2A00FCD9F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C531FE191BB9CE2A00FCD9F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C531FE1A1BB9CE2A00FCD9F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C531FE1C1BB9CE2A00FCD9F9 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		C531FE1D1BB9CE2A00FCD9F9 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		C531FE1F1BB9CE2A00FCD9F9 /* LiveGamesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveGamesViewController.h; sourceTree = "<group>"; };
-		C531FE201BB9CE2A00FCD9F9 /* LiveGamesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveGamesViewController.m; sourceTree = "<group>"; };
 		C531FE231BB9CE2A00FCD9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C531FE251BB9CE2A00FCD9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C531FE271BB9CE2A00FCD9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C531FE2D1BB9CE6E00FCD9F9 /* GameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTableViewCell.h; sourceTree = "<group>"; };
-		C531FE2E1BB9CE6E00FCD9F9 /* GameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTableViewCell.m; sourceTree = "<group>"; };
 		C531FE351BB9D44E00FCD9F9 /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+		C59B8AF11BCAF03900E7B10C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C59B8AF31BCB139B00E7B10C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C59B8AF61BCB14C600E7B10C /* LiveGamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveGamesViewController.swift; sourceTree = "<group>"; };
+		C59B8AF81BCB14DC00E7B10C /* GameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,28 +72,15 @@
 			isa = PBXGroup;
 			children = (
 				C531FE351BB9D44E00FCD9F9 /* AppConfig.plist */,
-				C531FE2D1BB9CE6E00FCD9F9 /* GameTableViewCell.h */,
-				C531FE2E1BB9CE6E00FCD9F9 /* GameTableViewCell.m */,
-				C531FE191BB9CE2A00FCD9F9 /* AppDelegate.h */,
-				C531FE1A1BB9CE2A00FCD9F9 /* AppDelegate.m */,
-				C531FE1C1BB9CE2A00FCD9F9 /* LoginViewController.h */,
-				C531FE1D1BB9CE2A00FCD9F9 /* LoginViewController.m */,
-				C531FE1F1BB9CE2A00FCD9F9 /* LiveGamesViewController.h */,
-				C531FE201BB9CE2A00FCD9F9 /* LiveGamesViewController.m */,
+				C59B8AF81BCB14DC00E7B10C /* GameTableViewCell.swift */,
+				C59B8AF31BCB139B00E7B10C /* AppDelegate.swift */,
+				C59B8AF11BCAF03900E7B10C /* LoginViewController.swift */,
+				C59B8AF61BCB14C600E7B10C /* LiveGamesViewController.swift */,
 				C531FE221BB9CE2A00FCD9F9 /* Main.storyboard */,
 				C531FE251BB9CE2A00FCD9F9 /* Assets.xcassets */,
 				C531FE271BB9CE2A00FCD9F9 /* Info.plist */,
-				C531FE161BB9CE2A00FCD9F9 /* Supporting Files */,
 			);
 			path = SportsStreamClient;
-			sourceTree = "<group>";
-		};
-		C531FE161BB9CE2A00FCD9F9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C531FE171BB9CE2A00FCD9F9 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +93,7 @@
 				C531FE0F1BB9CE2A00FCD9F9 /* Sources */,
 				C531FE101BB9CE2A00FCD9F9 /* Frameworks */,
 				C531FE111BB9CE2A00FCD9F9 /* Resources */,
+				C59B8AEA1BC9E00F00E7B10C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,11 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C531FE211BB9CE2A00FCD9F9 /* LiveGamesViewController.m in Sources */,
-				C531FE1B1BB9CE2A00FCD9F9 /* AppDelegate.m in Sources */,
-				C531FE1E1BB9CE2A00FCD9F9 /* LoginViewController.m in Sources */,
-				C531FE2F1BB9CE6E00FCD9F9 /* GameTableViewCell.m in Sources */,
-				C531FE181BB9CE2A00FCD9F9 /* main.m in Sources */,
+				C59B8AF71BCB14C600E7B10C /* LiveGamesViewController.swift in Sources */,
+				C59B8AF41BCB139B00E7B10C /* AppDelegate.swift in Sources */,
+				C59B8AF21BCAF03900E7B10C /* LoginViewController.swift in Sources */,
+				C59B8AF91BCB14DC00E7B10C /* GameTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,13 +261,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SportsStreamClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sportsstream.sportsstreamclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -282,13 +283,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SportsStreamClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sportsstream.sportsstreamclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 			};
 			name = Release;
 		};
