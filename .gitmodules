@@ -1,0 +1,3 @@
+[submodule "KeychainAccess"]
+	path = KeychainAccess
+	url = https://github.com/kishikawakatsumi/KeychainAccess.git

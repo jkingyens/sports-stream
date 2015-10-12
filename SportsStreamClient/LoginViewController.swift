@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import KeychainAccess
 
 class LoginViewController : UIViewController {
 
@@ -18,6 +19,12 @@ class LoginViewController : UIViewController {
     @IBOutlet var username: UITextField?
     @IBOutlet var password: UITextField?
     @IBOutlet var progressView: UIVisualEffectView?
+    
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        
+    }
     
     @IBAction func doLogin(sender: AnyObject) {
         
@@ -61,6 +68,15 @@ class LoginViewController : UIViewController {
                 return
             }
             
+            // at this point, we can record the configuration
+            let defaults = NSUserDefaults.standardUserDefaults()
+            defaults.setObject(self.serverEndpoint!.text, forKey: "endpoint")
+            defaults.setObject(self.username!.text, forKey: "username")
+            let keychain = Keychain(server: self.serverEndpoint!.text!, protocolType: ProtocolType.HTTPS)
+                .label("com.sportsstream.sportsstreamclient")
+                .synchronizable(true)
+            keychain[self.username!.text! as String] = self.password!.text
+            
             delegate.currentEndpoint = self.serverEndpoint?.text
             do {
                 
@@ -76,7 +92,6 @@ class LoginViewController : UIViewController {
                     return
                 }
                 dispatch_async(dispatch_get_main_queue()) { [unowned self] in
-                 
                     delegate.sessionToken = userInfo.objectForKey("token") as? String
                     delegate.username = self.username!.text
                     delegate.password = self.password!.text
@@ -84,7 +99,6 @@ class LoginViewController : UIViewController {
                     self.logoutButton!.hidden = false
                     self.progressView!.hidden = true
                     self.view.endEditing(true)
-                    
                 }
                 
             } catch {

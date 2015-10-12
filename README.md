@@ -1,6 +1,12 @@
 # sports-stream
 Redefine viewing live sports on tvOS and iOS
 
+# building
+
+Make sure to initialize the git subrepo modules before building. this fetches dependencies. Run this command once pull the repo:
+
+    git submodule update --init
+
 # Running in development
 
 If you want to develop on sports stream client locally, then you can spin up a mock server. to do this:
