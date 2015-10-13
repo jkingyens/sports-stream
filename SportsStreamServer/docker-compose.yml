@@ -1,0 +1,5 @@
+api:
+  build: .
+  ports:
+    - "3010:31337"
+  restart: always

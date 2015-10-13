@@ -110,6 +110,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     ctrl.selectedIndex = 1
                     let gameList = ctrl.selectedViewController as! LiveGamesViewController
                     gameList.refreshTable()
+                    let loginCtrl = ctrl.viewControllers![0] as! LoginViewController
+                    loginCtrl.refreshView()
                     
                 }
                 

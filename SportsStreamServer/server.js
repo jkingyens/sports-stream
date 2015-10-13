@@ -35,7 +35,7 @@ app.post('/Login', bodyParser.urlencoded({extended: false}), function (req, res)
     res.status(200);
     return res.json({
       username: 'freeloader',
-      uid: 1,
+      uid: '1',
       status: 'Success',
       membership: 'Regular',
       favteam: 'Toronto Maple Leafs',
@@ -47,7 +47,7 @@ app.post('/Login', bodyParser.urlencoded({extended: false}), function (req, res)
   res.status(200);
   res.json({
     username: req.body.username,
-    uid: 0,
+    uid: '0',
     status: 'Success',
     membership: 'Premium',
     favteam: 'Toronto Maple Leafs',
@@ -80,7 +80,7 @@ app.get('/GetLive', function (req, res) {
     status: 'Success',
     schedule: [
       {
-        id: 1234,
+        id: '1234',
         event: 'NHL',
         homeTeam: 'Toronto Maple Leafs',
         homeScore: 0,
@@ -121,7 +121,7 @@ app.get('/GetLiveStream', function (req, res) {
 
   res.json({
     status: 'Success',
-    id: 1234,
+    id: '1234',
     event: 'NHL',
     homeTeam: 'Toronto Maple Leafs',
     homeScore: 0,
@@ -150,6 +150,13 @@ app.get('/GetLiveStream', function (req, res) {
     ]
   });
 
+});
+
+// health check for compute engine
+app.get('/ping', function (req, res) {
+  res.json({
+    message: 'pong'
+  });
 });
 
 var server = http.createServer(app);

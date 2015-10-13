@@ -20,6 +20,26 @@ class LoginViewController : UIViewController {
     @IBOutlet var password: UITextField?
     @IBOutlet var progressView: UIVisualEffectView?
     
+    func refreshView() {
+        
+        let app = UIApplication.sharedApplication().delegate as! AppDelegate
+        if app.loggedIn == true {
+            loginButton?.hidden = true
+            username?.hidden = true
+            password?.hidden = true
+            serverEndpoint?.hidden = true
+            logoutButton?.hidden = false
+            progressView?.hidden = true
+        } else {
+            loginButton?.hidden = false
+            username?.hidden = false
+            password?.hidden = false
+            serverEndpoint?.hidden = false
+            logoutButton?.hidden = true
+            progressView?.hidden = true
+        }
+    }
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
