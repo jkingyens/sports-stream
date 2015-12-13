@@ -14,7 +14,6 @@
 		C59B8AF41BCB139B00E7B10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B8AF31BCB139B00E7B10C /* AppDelegate.swift */; };
 		C59B8AF71BCB14C600E7B10C /* LiveGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B8AF61BCB14C600E7B10C /* LiveGamesViewController.swift */; };
 		C59B8AF91BCB14DC00E7B10C /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B8AF81BCB14DC00E7B10C /* GameTableViewCell.swift */; };
-		C59B8B0E1BCB84E600E7B10C /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B8B031BCB849C00E7B10C /* KeychainAccess.framework */; };
 		C59B8B0F1BCB84E600E7B10C /* KeychainAccess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C59B8B031BCB849C00E7B10C /* KeychainAccess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -102,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C59B8B0E1BCB84E600E7B10C /* KeychainAccess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +395,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SportsStreamClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sportsstream.sportsstreamclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -404,6 +403,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -419,13 +419,14 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SportsStreamClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sportsstream.sportsstreamclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
